@@ -1,0 +1,28 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	/* width: 700px; */
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+.div {
+	border: 2px solid red;
+	padding: 30px;
+	text-align: center;
+	height: 100px;
+}
+.div-3 {
+	background-color: indianred;
+}
